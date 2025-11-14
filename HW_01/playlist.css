@@ -35,3 +35,16 @@ tr:nth-child(even) {
 img {
     border-radius: 6px;
 }
+
+.Custom, 
+.Custom th {
+    background-color: blue !important;
+    color: white !important;
+}
+
+.highlightRow {
+    background-color: #99cbf7;
+    color: #014181;
+    font-size: 16px;
+    font-weight: bold;
+}
