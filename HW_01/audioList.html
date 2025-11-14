@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 6px;
+        }
+
+        a.downloadLink {
+            color: white;
+            background-color: #28a745;
+            padding: 6px 12px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+
+        a.downloadLink:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Audio List</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Song</th>
+                <th>Audio Player</th>
+                <th>Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <img src="AudioFiles/song1.jpg" alt="Song 1"><br>
+                    Song 1
+                </td>
+                <td>
+                    <audio controls>
+                        <source src="AudioFiles/song1.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <a class="downloadLink" href="AudioFiles/song1.mp3" download>Download</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="C:\Users\gadee\Desktop\שנה ג מדעי המחשב\WebDev_Course_HW1\WebDevCourse_HW\HW_01\AudioFiles\gardens-stylish-chill-303261.mp3" alt="Song 2"><br>
+                    Song 2
+                </td>
+                <td>
+                    <audio controls>
+                        <source src="C:\Users\gadee\Desktop\שנה ג מדעי המחשב\WebDev_Course_HW1\WebDevCourse_HW\HW_01\AudioFiles\gorila-315977.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </td>
+                <td>
+                    <a class="downloadLink" href="AudioFiles/song2.mp3" download>Download</a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
