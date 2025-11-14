@@ -1,0 +1,66 @@
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+table {
+    border: 2px solid #b8c714; 
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+td input, td textarea {
+    border: 1px solid #b8c714; 
+    border-radius: 4px;
+    padding: 6px;
+    transition: 0.3s;
+}
+
+td input:focus, td textarea:focus {
+    border-color: #b8c714;
+    box-shadow: 0 0 5px rgba(1,65,129,0.5);
+}
+
+
+td {
+    padding: 10px;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
+input[type="text"], input[type="tel"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #efefeffb;
+    color: rgb(10, 10, 10);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
